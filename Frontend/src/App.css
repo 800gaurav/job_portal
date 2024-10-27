@@ -1,0 +1,443 @@
+.navbar{
+  display: flex; 
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  background-color:rgb(220, 212, 212);
+}
+.logo{
+padding-left: 25px;
+font-weight: 600;
+color: #28a745;
+cursor: pointer;
+}
+.nav_items {
+padding: 6px 25px 6px 0px;
+
+}
+
+.signup-container{
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.signup-form{
+padding: 20px 40px;
+border: 1px solid black;
+width: 350px;
+display: flex;
+flex-direction: column;
+}
+.forget_button{
+cursor: pointer;
+text-transform: capitalize;
+text-decoration: underline;
+}
+.form_input{
+margin-top: 10px;
+}
+input {
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+width: 100%;
+box-sizing: border-box;
+}
+.submit-btn{
+border-radius: 5px;
+cursor: pointer;
+padding: 5px 0;
+text-align: center;
+margin-top: 10px;
+}
+h2{
+text-align: center;
+}
+
+.home_container {
+display: flex;
+height: 100vh; 
+}
+
+.all_users_home{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.home_section {
+width: 20%;
+background-color: rgb(252, 242, 242);
+height: 100vh;
+text-align: center;
+transition: transform 0.3s ease;
+}
+.change_password{
+cursor: pointer;
+color: blue;
+}
+
+.contact_section {
+height: 100vh;
+width: 80%;
+}
+
+.no_email_varify_btn {
+color: red;
+border-radius: 13px;
+border: none;
+background-color: rgb(236, 199, 199);
+padding: 1px 25px;
+}
+
+.email_varify_btn {
+color: green;
+border-radius: 18px;
+border: none;
+background-color: rgb(202, 199, 199);
+padding: 0px 20px;
+}
+
+
+.toggle_button {
+position: absolute;
+top: 10px;
+left: 15px;
+border: none;
+background-color: transparent;
+display: none;
+}
+
+.unblock{
+color: red;
+border-radius: 13px;
+border: none;
+background-color: rgb(236, 199, 199);
+cursor: pointer;
+width: 30px;
+}
+.block{
+cursor: pointer;
+}
+
+
+.add_blog_btn {
+background-color: #28a745; 
+color: white; 
+border: none; 
+padding: 12px 20px; 
+font-size: 16px; 
+font-weight: bold; 
+border-radius: 10px; 
+cursor: pointer; 
+transition: background-color 0.3s ease;
+margin-left: 20px;
+}
+
+
+.get_all_blogs {
+display: flex;
+flex-wrap: wrap;
+gap: 20px; 
+padding: 20px;
+background-color: #f9f9f9; 
+}
+
+
+.all_blogs {
+background-color: #fff;
+border: 1px solid #ddd; 
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+padding: 16px;
+transition: transform 0.3s ease-in-out;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: 300px;
+height: 293px;
+}
+
+/* Blog images */
+.all_blogs img {
+max-width: 100%;
+object-fit: cover;
+border-radius: 8px; 
+margin-bottom: 12px; 
+}
+
+/* Blog title */
+.all_blogs h5 {
+font-size: 20px;
+color: #333;
+margin-bottom: 8px;
+font-weight: 600;
+text-align: center;
+text-transform: capitalize;
+}
+
+
+.all_blogs p {
+font-size: 1rem;
+width: 290px;
+color: #666;
+text-align: justify; 
+margin-bottom: 5px;
+word-wrap: break-word; 
+}
+.share_and_view{
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+.share_blog_btn {
+background-color: #676cf7; 
+height: 30px;
+color: white; 
+border: none; 
+padding: 6px 20px; 
+font-size: 15px; 
+font-weight: bold; 
+border-radius: 5px; 
+cursor: pointer; 
+display: flex; 
+align-items: center; 
+}
+
+.share_blog_btn:hover {
+background-color: #0056b3; 
+}
+
+
+.all_blogs:hover {
+transform: translateY(-5px);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.view_blog_btn {
+background: none;
+border: none;
+color: #007bff; 
+text-decoration: underline;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+padding: 0;
+margin-bottom: 10px;
+}
+
+.view_blog_btn:hover {
+color: #0056b3; 
+text-decoration: none; 
+}
+
+/* blog details */
+.get_blog_details {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 20px;
+background-color: #f0f0f0;
+}
+
+.blogs_details {
+background-color: white;
+padding:10px 30px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+/* max-width: 700px; */
+width: 80%;
+text-align: center;
+}
+
+
+.blogs_details img {
+width: 40%;
+height: auto;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.blogs_details hr {
+border: 0;
+height: 3px;
+background-color: #555655;
+width: 20%; 
+margin: 10px auto;
+}
+
+
+.blogs_details h6 {
+font-size: 18px;
+font-weight: bold;
+margin-top: 20px;
+}
+
+/* Summary styling */
+.blogs_details p {
+font-size: 1rem;
+width: 100%;
+color: #666;
+text-align: justify; 
+margin-bottom: 10px;
+word-wrap: break-word; 
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+.blogs_details {
+  padding: 20px;
+  max-width: 95%;
+}
+
+.blogs_details h5 {
+  font-size: 20px;
+}
+
+.blogs_details p {
+  font-size: 14px;
+}
+}
+
+
+@media (max-width: 1024px) {
+.home_container {
+ display: flex;
+}
+.contact_section {
+  width: 100vw; 
+  position: relative;
+  left: 20px;
+}
+
+.home_section {
+  display: none; 
+}
+
+
+.toggle_button {
+  display: flex;
+}
+
+
+.home_section.active {
+  display: block; 
+  width:260px;
+  z-index: 1000;
+}
+}
+
+
+@media (min-width: 1025px) {
+.home_container {
+  display: flex; 
+}
+
+.home_section {
+  display: block; 
+}
+
+.contact_section {
+  width: 80%; 
+}
+
+.toggle_button {
+  display: none; 
+}
+}
+
+
+
+
+.single-application-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.application-detail {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.application-detail p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.application-detail p strong {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.accepted {
+  background-color: #e0f8e0; 
+  color: green;
+}
+
+.rejected {
+  background-color: #f8d7da; 
+  color: red;
+}
+
+.pending {
+  background-color: #fff3cd;
+  color: orange;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
